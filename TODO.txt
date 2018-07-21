@@ -1,7 +1,0 @@
-TODO:
-
-- Activate Linux messaging system instead of dialog box
-- Convert input to minutes
-- Add text to entry box to say put time in minutes
-- Add Face Detection
-- Make gui look nice
