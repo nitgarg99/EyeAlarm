@@ -1,4 +1,5 @@
-Time is givin in milliseconds (1/1000th seconds).
-Type new value for timer in box then hit enter to change the value.
+#EyeAlarm
 
-Default time is set to 10 seconds
+Small software designed to warn the user if they have been staring at the screen for too long.
+
+Uses face detection to track the user's position.
