@@ -1,4 +1,4 @@
-#EyeAlarm
+# EyeAlarm
 
 Small software designed to warn the user if they have been staring at the screen for too long.
 
