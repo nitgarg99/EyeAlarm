@@ -1,6 +1,6 @@
 CC=gcc
-CFLAGS=-I. -g -Wall -Wextra `pkg-config --libs --cflags gtk+-2.0`
-LDFLAGS=`pkg-config --libs --cflags gtk+-2.0`
+CFLAGS=-I. -g -Wall -Wextra `pkg-config --libs --cflags gtk+-2.0 python`
+LDFLAGS=`pkg-config --libs --cflags gtk+-2.0 python`
 DEPS = alarm.h
 
 %.o: %.c $(DEPS)
