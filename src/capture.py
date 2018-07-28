@@ -9,11 +9,12 @@ def detect():
     cv2.imwrite('test.png', frame)
     cap.release()
 
-    image = face_recognition.load_image_file("test.png")
+    image = face_recognition.load_image_file("face.jpg")
 
     face_locations = face_recognition.face_locations(image)
 
     print("I found {} face(s) in this image.".format(len(face_locations)))
+
     if len(face_locations) > 0:
         return 1
     else:
